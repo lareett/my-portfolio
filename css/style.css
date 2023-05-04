@@ -64,15 +64,14 @@ body.dark{
     width: 88px;
 }
 
-
 .sidebar.close .text {
     opacity: 0;
 }
 
 
+
 .sidebar header{
     position: relative;
-
     margin: 25px 0;
 
     /*border: 1px solid black;*/
@@ -190,11 +189,6 @@ body.dark{
 
 }
 
-
-
-
-
-
 .icon{
     display: flex;
 
@@ -213,33 +207,28 @@ body.dark{
 }
 
 .sidebar .menu-links{
+
     display: flex;
     flex-direction: column;
 
-    margin-top: 10px;
+    position: relative;    
         
-    /*border: 1px solid blue;*/
-    width: 250px;
+    /*border: 1px solid red;*/
+    width: 100%;
 }
 
-.sidebar .search-box{
 
+.sidebar .search-box{
     display: flex;
     justify-content: space-around;
 
     background: var(--primary-color-light);
     border-radius: 5px;
 
-    width: 100%;
-    height: 10%;
-
-
-
-    /*border: 1px solid black;*/
+    border: 1px solid yellow;
 }
 
 .search-box input{
-
     height: 100%;
     width: 80%;
 
@@ -251,11 +240,6 @@ body.dark{
     background: var(--primary-color-light);
     color: var(--text-color);
     
-}
-
-.search-box input::placeholder{
-    /*border: 1px solid black;*/
-
 }
 
 
@@ -272,16 +256,18 @@ body.dark{
 .sidebar .menu-bar{
     height: calc(100% - 130px); /* O HEIGHT ESTÁ SERVINDO PARA aumentar menu-link*/
     width: 250px;
-  
+    
+    padding: 5px;
     /*border: 1px solid blue;*/
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
+
 .menu-bar .mode {
-    position: relative;
+    /*position: relative;*/
     background-color: var(--primary-color-light);
     border-radius: 5px;
 
@@ -289,7 +275,7 @@ body.dark{
 
     align-items: center;
     justify-content: flex-start;
-    padding-left: 10px;
+    padding: 15px;
 
 
     /*border: 1px solid red;*/
@@ -314,7 +300,6 @@ body.dark{
 .toggle-switch{
     position: absolute;
     display: flex;
-    height: 100%;
     min-width: 60px;
 
     right: 0;
@@ -324,7 +309,7 @@ body.dark{
 
     cursor: pointer;
 
-    /*border: 1px solid black;*/
+    border: 1px solid red;
 }
 
 .toggle-switch .switch{
@@ -334,6 +319,7 @@ body.dark{
     background: var(--toggle-color);
 
     border-radius: 25px;
+
 
 }
 
