@@ -359,3 +359,19 @@ body.dark{
 body.dark .switch::before{
     left: 27px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
