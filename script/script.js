@@ -8,7 +8,6 @@ const body = document.querySelector("body"),
     // ISSO SERVE PRA MUDAR A CLASSE DO ELEMENTO SEM PERDER AS OUTRAS DIFERENTE DO CLASSNAME
 toggleSwitch.addEventListener("click", () => {
     body.classList.toggle("dark");
-
 });
 
 toggle.addEventListener("click", () => {
